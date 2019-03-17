@@ -1,0 +1,12 @@
+wsrep_on=OFF
+wsrep_provider=/usr/lib64/galera/libgalera_smm.so
+wsrep_cluster_address="gcomm://IP1,IP2"
+binlog_format=row
+default_storage_engine=InnoDB
+innodb_autoinc_lock_mode=2
+wsrep_cluster_name="onet"
+bind-address=0.0.0.0
+wsrep_node_address="IP1"
+wsrep_node_name="node1"
+wsrep_sst_method=rsync
+sql_mode=""
